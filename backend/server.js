@@ -17,6 +17,9 @@ app.use(logger);
 app.use('/api', authRoutes)
 app.use('/api', bookRoutes)
 
+app.get('/api', (req, res) => {
+  res.send('Library API is working');
+});
 
 
 app.listen(port, () => {
