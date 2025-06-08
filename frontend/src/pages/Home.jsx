@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { fetchBooks } from '../utils/Api.js'
+import { fetchBooks } from '../utils/api.js'
 import { Link } from 'react-router-dom'
 
 const Home = () => {

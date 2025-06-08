@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { getBorrowedBooks } from '../utils/Api.js'
+import { getBorrowedBooks } from '../utils/api.js'
 import { useAuth } from '../context/AuthContext'
 
 const BorrowedBooks = () => {

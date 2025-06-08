@@ -1,6 +1,6 @@
 import { useParams } from 'react-router-dom'
 import { useEffect, useState } from 'react'
-import { fetchBook, borrowBook } from '../utils/Api.js'
+import { fetchBook, borrowBook } from '../utils/api.js'
 import { useAuth } from '../context/AuthContext'
 
 const BookDetail = () => {

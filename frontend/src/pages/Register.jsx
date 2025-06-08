@@ -1,6 +1,5 @@
 import { useState } from 'react'
-// import { registerUser } from '../utils/api.js'
-import { registerUser } from '../utils/Api.js'
+import { registerUser } from '../utils/api.js'
 import { useNavigate } from 'react-router-dom'
 import { useAuth } from '../context/AuthContext'
 
