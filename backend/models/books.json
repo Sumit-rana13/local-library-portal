@@ -8,16 +8,100 @@
   },
   {
     "id": 2,
+    "title": "Clean Code",
+    "author": "Robert C. Martin",
+    "genre": "Programming",
+    "rating": 4.8
+  },
+  {
+    "id": 3,
+    "title": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "genre": "Fiction",
+    "rating": 4.9
+  },
+  {
+    "id": 4,
+    "title": "1984",
+    "author": "George Orwell",
+    "genre": "Dystopian",
+    "rating": 4.7
+  },
+  {
+    "id": 5,
+    "title": "The Pragmatic Programmer",
+    "author": "Andrew Hunt and David Thomas",
+    "genre": "Programming",
+    "rating": 4.6
+  },
+  {
+    "id": 6,
+    "title": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "genre": "Classic",
+    "rating": 4.3
+  },
+  {
+    "id": 7,
     "title": "Atomic Habits",
     "author": "James Clear",
     "genre": "Self-Help",
     "rating": 4.8
   },
   {
-    "id": 3,
-    "title": "Harry Potter",
-    "author": "J.K. Rowling",
-    "genre": "Fantasy",
+    "id": 8,
+    "title": "The Catcher in the Rye",
+    "author": "J.D. Salinger",
+    "genre": "Fiction",
+    "rating": 4.2
+  },
+  {
+    "id": 9,
+    "title": "You Don’t Know JS",
+    "author": "Kyle Simpson",
+    "genre": "Programming",
+    "rating": 4.7
+  },
+  {
+    "id": 10,
+    "title": "The Alchemist",
+    "author": "Paulo Coelho",
+    "genre": "Adventure",
+    "rating": 4.6
+  },
+  {
+    "id": 11,
+    "title": "Sapiens: A Brief History of Humankind",
+    "author": "Yuval Noah Harari",
+    "genre": "History",
     "rating": 4.9
+  },
+  {
+    "id": 12,
+    "title": "The Subtle Art of Not Giving a F*ck",
+    "author": "Mark Manson",
+    "genre": "Self-Help",
+    "rating": 4.4
+  },
+  {
+    "id": 13,
+    "title": "The Hobbit",
+    "author": "J.R.R. Tolkien",
+    "genre": "Fantasy",
+    "rating": 4.8
+  },
+  {
+    "id": 14,
+    "title": "Deep Work",
+    "author": "Cal Newport",
+    "genre": "Productivity",
+    "rating": 4.7
+  },
+  {
+    "id": 15,
+    "title": "The Lean Startup",
+    "author": "Eric Ries",
+    "genre": "Business",
+    "rating": 4.5
   }
 ]

@@ -1,1 +1,24 @@
-[]
+[
+  {
+    "id": 1749395461801,
+    "email": "kiran@gmail.com",
+    "password": "$2b$10$QY6aEN7cwl6yl/XI/zO8Xu2KJG3cfD/JAlEOCA0SKlUftYxx5EkU.",
+    "borrowed": [
+      {
+        "bookId": 2,
+        "genre": "Programming",
+        "borrowedUntil": "23-Jun-2025"
+      },
+      {
+        "bookId": 6,
+        "genre": "Classic",
+        "borrowedUntil": "23-Jun-2025"
+      },
+      {
+        "bookId": 10,
+        "genre": "Adventure",
+        "borrowedUntil": "23-Jun-2025"
+      }
+    ]
+  }
+]
