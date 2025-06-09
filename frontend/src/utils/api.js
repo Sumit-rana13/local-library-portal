@@ -16,7 +16,7 @@ export const fetchBook = async (id) => {
 }
 
 export const registerUser = async (data) => {
-    const res = await fetch(`${BASE_URL}/register`, {
+    const res = await fetch(`${BASE_URL}/api/register`, {
         method: 'POST',
         headers: { 'content-Type': 'application/json' },
         body: JSON.stringify(data)
@@ -25,7 +25,7 @@ export const registerUser = async (data) => {
 }
 
 export const loginUser = async (data) => {
-    const res = await fetch(`${BASE_URL}/login`, {
+    const res = await fetch(`${BASE_URL}/api/login`, {
         method: 'POST',
         headers: { 'content-Type': 'application/json' },
         body: JSON.stringify(data)
@@ -34,7 +34,7 @@ export const loginUser = async (data) => {
 }
 
 export const borrowBook = async (id, token) => {
-    const res = await fetch(`${BASE_URL}/borrow/${id}`, {
+    const res = await fetch(`${BASE_URL}/api/borrow/${id}`, {
         method: 'POST',
         headers: { Authorization: `Bearer ${token}` },
     })
@@ -42,7 +42,7 @@ export const borrowBook = async (id, token) => {
 }
 
 export const getBorrowedBooks = async (token) => {
-    const res = await fetch(`${BASE_URL}/borrowed`, {
+    const res = await fetch(`${BASE_URL}/api/borrowed`, {
         headers: { Authorization: `Bearer ${token}` }
     })
     return res.json()
