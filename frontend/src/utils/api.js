@@ -3,14 +3,14 @@ const BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000' ;
 
 
 export const fetchBooks = async () =>{
-    const response = await fetch(`${BASE_URL}/books`)
+    const response = await fetch(`${BASE_URL}/api/books`)
     const data = await response.json()
     return data;
 }
 
 
 export const fetchBook = async (id) => {
-  const response = await fetch(`${BASE_URL}/books/${id}`);
+  const response = await fetch(`${BASE_URL}/api/books/${id}`);
   const data = await response.json();
   return data;
 }
